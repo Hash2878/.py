@@ -10,6 +10,6 @@ with open('enjoysport.csv','r') as file:
             for j in range(num_attribute):
                 if i[j]!=hypothesis[j]:
                     hypothesis[j]='?'
-print(hypothesis)
+
 print("\n The maximally specific hypothesis for a given training examples:\n")
 print(hypothesis)   
